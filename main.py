@@ -81,7 +81,6 @@ def overs(o,w):
         global Total_overs, Total_wicket
         Total_overs = int(o)
         Total_wicket = int(w) 
-        raise_frame(root_frame2)
         players_balls=Total_overs*6
         comp_balls=Total_overs*6
         balls_remain['text']=f'Balls : {players_balls}'
