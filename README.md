@@ -37,9 +37,9 @@ Download this game by give downloading option
 ------------
 - ## Screenshot of Application
 
-[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img1.png" width="300">](img1.png)	                 				[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img2.png" width="300">](img2.png) 
+[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img1.png" width="300">](img1.png)                  [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img2.png" width="300">](img2.png) 
 
-[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img3.png" width="300">](img3.png) 			              		[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img4.png" width="300">](img4.png) 
+[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img3.png" width="300">](img3.png)                 [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img4.png" width="300">](img4.png) 
 
 
 
