@@ -20,7 +20,7 @@ choics of run, if the your run match with computer run you will get out,and if d
 Download this game by give downloading option
 ##### Download Now | [⬇](https://github.com/AniruddhaGawali/Hand_Cricket/raw/master/Hand_cricket%20setup.exe)
   - #### Run by Program File:
-  This is can also be run on you python.exe, For this you have to download python and download this file
+  	This is can also be run on you python.exe, For this you have to download python and download this file
   1. Install python (>3.5)
 	
   2. Pull / Download git repo
