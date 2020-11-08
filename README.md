@@ -26,7 +26,7 @@ Download this game by give downloading option
   2. Pull / Download git repo
 	
 	    ```bash
-        gh repo clone AniruddhaGawali/Hand_Cricket
+        git clone https://github.com/AniruddhaGawali/Hand_Cricket.git
       ```
   3. Download ttktheme
 	
