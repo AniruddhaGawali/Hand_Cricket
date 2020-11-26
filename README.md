@@ -1,5 +1,3 @@
-# Hand Cricket
-
 
 [<img src="data/img/logo.png" width="300">](logo.png)  
 
