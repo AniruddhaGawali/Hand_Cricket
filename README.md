@@ -1,6 +1,6 @@
 # Hand Cricket
 
-[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/logo.png" width="200" >](PicsArt_10-18-12.32.10.png) 
+<!-- [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/logo.png" width="200" >](PicsArt_10-18-12.32.10.png) -->
 
 
 This is a great python tkinter GUI based game of Hand Cricket. This is simple to play just as normal cricket game all comman are same to it. This game will help you in remember your nostalgia.
@@ -18,7 +18,7 @@ choics of run, if the your run match with computer run you will get out,and if d
 
 - ### How to Download :
 Download this game by give downloading option
-### Download Now | [⬇](https://github.com/AniruddhaGawali/Hand_Cricket/raw/master/Hand_cricket%20setup.exe)
+<!--### Download Now | [⬇](https://github.com/AniruddhaGawali/Hand_Cricket/raw/master/Hand_cricket%20setup.exe)-->
   - #### Run by Program File:
   	This is can also be run on you python.exe, For this you have to download python and download this file
   1. Install python (>3.5)
@@ -39,7 +39,7 @@ Download this game by give downloading option
 
 [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img1.png" width="300">](img1.png)                  [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img2.png" width="300">](img2.png) 
 
-[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img3.png" width="300">](img3.png)                 [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img4.png" width="300">](img4.png) 
+<!-- [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img3.png" width="300">](img3.png)                 [<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/img4.png" width="300">](img4.png) -->
 
 
 
