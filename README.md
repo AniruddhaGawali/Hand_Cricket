@@ -1,6 +1,6 @@
 # Hand Cricket
 
-[<img src="https://github.com/AniruddhaGawali/Hand_Cricket/blob/master/data/img/logo.png" width="200" >](PicsArt_10-18-12.32.10.png) 
+[<img src="data/img/logo.png" width="200" >](PicsArt_10-18-12.32.10.png) 
 
 
 This is a great python tkinter GUI based game of Hand Cricket. This is simple to play just as normal cricket game all comman are same to it. This game will help you in remember your nostalgia.
