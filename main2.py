@@ -22,6 +22,11 @@ player_bat_choice={}
 comp_bat_choice={}
 First_to=''
 
+# sounds file 
+toss_mp3='data/sound/coinflip.mp3'
+loss_mp3='data/sound/loss.mp3'
+win_mp3='data/sound/win.mp3'
+
 
 
 class Game_Func():
@@ -103,7 +108,6 @@ class Game_Func():
             Game_Func.comp_bat()
         Game_Func.comp_bat_match_result()
 
-
     def player_bat_match():
         global Total_runs,target,player_wicket,players_balls,comp_balls,comp_wicket,comp_Total_runs
 
@@ -161,17 +165,17 @@ class Game_Func():
                 conc_style.configure('conc.TLabel',background=bg_color,foreground='green')
                 concustion_label['text']= f'YOU WIN'
                 who_win = 'p'
-                Game_Func.effect('data\sound\win.mp3')
+                Game_Func.effect(win_mp3)
             elif Total_runs==comp_Total_runs:
                 conc_style.configure('conc.TLabel',background=bg_color,foreground='gray40')
                 concustion_label['text']= f'TIE'
                 who_win = 't'
-                Game_Func.effect("data\sound\loss.mp3")
+                Game_Func.effect(loss_mp3)
             else:
                 conc_style.configure('conc.TLabel',background=bg_color,foreground='red')
                 concustion_label['text']= f'YOU LOSS'
                 who_win= 'c'
-                Game_Func.effect("data\sound\loss.mp3")
+                Game_Func.effect(loss_mp3)
         
         elif players_balls == 0 and Total_runs < comp_Total_runs:
             conc_style.configure('conc.TLabel',background=bg_color,foreground='red')
@@ -182,7 +186,7 @@ class Game_Func():
                     continue
                 else:
                     globals()['but%s'%i].config(state='disabled')
-            Game_Func.effect("data\sound\loss.mp3")
+            Game_Func.effect(loss_mp3)
 
 
     def comp_bat_match_result():
@@ -196,18 +200,18 @@ class Game_Func():
             if Total_runs > comp_Total_runs:
                 conc_style.configure('conc.TLabel',background=bg_color,foreground='green')
                 concustion_label['text']= f'YOU WIN'
-                Game_Func.effect('data\sound\win.mp3')
+                Game_Func.effect(win_mp3)
                 who_win = 'p'
             elif Total_runs==comp_Total_runs:
                 conc_style.configure('conc.TLabel',background=bg_color,foreground='gray40')
                 concustion_label['text']= f'TIE'
                 who_win='t'
-                Game_Func.effect("data\sound\loss.mp3")
+                Game_Func.effect(loss_mp3)
             else:
                 conc_style.configure('conc.TLabel',background=bg_color,foreground='red')
                 concustion_label['text']= f'YOU LOSS'
                 who_win='c'
-                Game_Func.effect("data\sound\loss.mp3")
+                Game_Func.effect(loss_mp3)
         
         elif comp_balls == 0 and Total_runs > comp_Total_runs:
             conc_style.configure('conc.TLabel',background=bg_color,foreground='green')
@@ -218,7 +222,7 @@ class Game_Func():
                     continue
                 else:
                     globals()['but%s'%i].config(state='disabled')
-            Game_Func.effect('data\sound\win.mp3')
+            Game_Func.effect(win_mp3)
 
 
     def save_game():
@@ -306,7 +310,7 @@ class Game_Func():
 
 
 
-    
+# ============================================MAIN APPLICATION==========================================  
 
 
 
@@ -316,7 +320,9 @@ class SampleApp(Tk):
 
         self.geometry('300x525')
         self.maxsize(300,525)
-        self.wm_iconbitmap("data/img/ico/icon.ico")
+        # self.wm_iconbitmap("data/img/ico/icon.ico")
+        p1 = PhotoImage(file = 'data/img/ico/icon-1.png')
+        self.iconphoto(False,p1)
         self.title('Hand Cricket')
 
 
@@ -384,7 +390,7 @@ class SampleApp(Tk):
     def coin_toss(self,select):
         global First_to
         First_to=StringVar()
-        Game_Func.effect('data\sound\coinflip.mp3')
+        Game_Func.effect(toss_mp3)
         self.overs(over.get(),wicket.get())
         coin_face = random.choice(('h','t'))
         if select== coin_face:
